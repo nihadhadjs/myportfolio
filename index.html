@@ -1,0 +1,314 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  
+
+  <title>Nihad Hadj-Sahraoui — AI and IT Systems Developer</title>
+  <link rel="stylesheet" href="styles.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap"
+    rel="stylesheet"
+  />
+</head>
+<body>
+  <header>
+    <div class="container header-container">
+      <h1 class="name">Nihad Hadj-Sahraoui</h1>
+      <p class="title">AI and IT Systems Developer, PhD Researcher in Artificial Intelligence</p>
+      <button id="toggleBtn" aria-label="Toggle dark/light mode">🌙</button>
+    </div>
+    <nav>
+      <ul class="nav-links container">
+        <li><a href="#about" class="nav-link">About</a></li>
+        <li><a href="#education" class="nav-link">Education</a></li>
+        <li><a href="#experience" class="nav-link">Experience</a></li>
+        <li><a href="#projects" class="nav-link">Projects</a></li>
+        <li><a href="#skills" class="nav-link">Skills</a></li>
+        <li><a href="#publications" class="nav-link">Publications</a></li>
+        <li><a href="#contact" class="nav-link">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main class="container">
+    <section id="about" class="section">
+      <h2>About Me</h2>
+      <p>
+        I’m a developer in Artificial Intelligence with a strong passion for computer vision, machine learning, and bio-inspired algorithms. currently a PhD student at the university of science and technology of Oran, My research focuses on motion detection and energy tracking using spatio-temporal filters inspired by human perception. I enjoy bridging the gap between academic research and real-world applications, particularly in the areas of computational neuroscience, healthcare, and intelligent systems.
+
+        Over the years, I’ve developed and deployed end-to-end AI solutions using tools like Python, TensorFlow, Keras, and OpenCV.
+        
+        As someone who thrives in dynamic, collaborative environments, I’m always looking for opportunities to learn, innovate, and contribute to impactful projects whether in academia, research labs, or industry.
+      </p>
+      <!-- Resume Button -->
+      <a href="resume.pdf" target="_blank" class="resume-btn">📄 View Resume</a>
+
+    </section>
+
+    <section id="education" class="section">
+      <h2>Education</h2>
+      <ul class="timeline">
+        <li>
+          <span class="date">2025 – In progress</span>
+          <h3>PhD in Computer Science – Artificial Intelligence</h3>
+          <p><strong>University of Science and Technology of Oran (USTO). Oran,Algeria.</strong></p>
+          <p><em>Subject:</em> Motion detection and energy tracking in a video scene using bio-inspired methods.</p>
+        </li>
+        <li>
+          <span class="date">2021 – 2023</span>
+          <h3>Master’s in Computer Science – Decision Support and Intelligent Systems</h3>
+          <p><strong>Ahmed Ben Bella Oran 1 University. Oran,Algeria.</strong></p>
+        </li>
+        <li>
+          <span class="date">2018 – 2021</span>
+          <h3>Bachelor’s in Computer Science – Information Systems Engineering</h3>
+          <p><strong>Ahmed Ben Bella Oran 1 University. Oran,Algeria.</strong></p>
+        </li>
+      </ul>
+    </section>
+
+    <section id="experience" class="section">
+      <h2>Professional Experience</h2>
+      <ul class="timeline">
+        <li>
+          <span class="date">March 2025 – Present</span>
+          <h3>PhD Researcher & Adjunct Lecturer</h3>
+          <p><strong>University of science and technology of Oran. Oran, Algeria</strong></p>
+          <ul>
+            <li>Teaching Practical Work in Object-Oriented Programming (Java), C++, and Matlab.</li>
+            <li>Educational monitoring of students.</li>
+            <li>Conducting AI research in motion tracking using bio-inspired models</li>
+          </ul>
+        </li>
+        <li>
+          <span class="date">Oct 2023 – Oct 2024</span>
+          <h3>Software Developer</h3>
+          <p><strong>Design and Consulting Office. Oran, Algeria</strong></p>
+          <ul>
+            <li> Developed deep learning models to analyze and segment complex human movements for video-based movement analysis project, using Python, OpenCV, and Mask R-CNN.
+              </li>
+            <li>Design and development of management software.</li>
+            <li>Troubleshooting technical issues for clients and addressing requests to ensure an optimal user experience.</li>
+           
+
+          </ul>
+        </li>
+      </ul>
+    </section>
+
+    <section id="projects" class="section">
+      <h2>Recent projects</h2>
+      <div class="projects-grid">
+        <article class="project-card">
+          <div class="swiper project-swiper">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide">
+                <img src="images/Capture.PNG" alt="Gesture Segmentation 1" class="project-image" />
+              </div>
+              <div class="swiper-slide">
+                <video class="project-video" controls >
+                  <source src="video/lift.mp4" type="video/mp4">
+                </video>
+              </div>
+              
+            </div>
+        
+            <!-- Navigation & pagination inside the same container (keeps them local) -->
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-button-next"></div>
+            <div class="swiper-pagination"></div>
+          </div>
+        
+          <div class="project-content">
+            <h3> PROJECT 01: Automatic Gesture Segmentation and Complex Movement Analysis</h3>
+            <p class="project-tech"><strong>Technologies:</strong> Python, OpenCV, Mask R-CNN</p>
+            <p class="project-desc">
+              In this project, I applied the Mask R-CNN model to perform pixel-level segmentation and recognition of human gestures in video streams. To improve robustness, I prepared the dataset through preprocessing steps such as cropping, normalization, and frame sampling. The system achieved good results compared to traditional methods like thresholding and optical flow, and it shows strong potential in sports analytics, particularly for decomposing athletic movements to study performance and prevent injuries.
+            </p>
+          </div>
+        </article>
+
+        <article class="project-card">
+          <div class="swiper project-swiper">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide">
+                <img src="images/photo_2023-05-22_14-46-11.jpg" alt="authentification" class="project-image" />
+              </div>
+              <div class="swiper-slide">
+                <img src="images/photo_2023-05-25_19-12-32 (2).jpg" alt="authentification" class="project-image" />
+              </div>
+                <div class="swiper-slide">
+                  <img src="images/photo_2023-05-25_19-12-32.jpg" alt="authentification" class="project-image" />
+                </div>
+                  <div class="swiper-slide">
+                    <img src="images/photo_2023-05-25_19-12-33.jpg" alt="authentification" class="project-image" />
+                  </div>
+                    <div class="swiper-slide">
+                      <img src="images/photo_2023-05-25_19-12-33 (2).jpg" alt="authentification" class="project-image" />
+                    </div>
+              
+              
+            </div>
+        
+            <!-- Navigation & pagination inside the same container (keeps them local) -->
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-button-next"></div>
+            <div class="swiper-pagination"></div>
+          </div>
+
+
+          <div class="project-content">
+            <h3>PROJECT 02 : Continuous User Authentication System based on Behavioral Biometrics using deep learning </h3>
+            <p class="project-tech"><strong>Technologies:</strong> Python, TensorFlow, Keras</p>
+            <p class="project-desc">
+              The system leverages behavioral biometrics, specifically keystroke dynamics, to monitor and analyze users' unique typing patterns. The development process involved:
+
+              Data Collection – Recording and compiling the behavioral characteristics (keystroke patterns, timing, rhythm) of verified users to build a reliable dataset.
+              
+              Feature Extraction – Identifying key behavioral indicators relevant to user identification.
+              
+              Model Training – Applying advanced deep learning algorithms, including:
+              
+              Multilayer Perceptron (MLP)
+              
+              Long Short-Term Memory networks (LSTM)
+              
+              Recurrent Neural Networks (RNN)
+              to accurately classify users based on their typing behavior.
+              
+              This approach ensures non-intrusive, real-time monitoring that reinforces security throughout the session without interrupting the user experience.
+              
+              Keywords: Continuous Authentication, Behavioral Biometrics, Keystroke Dynamics, Deep Learning, MLP, LSTM, RNN, Cybersecurity
+            </p>
+          </div>
+        </article>
+
+        <article class="project-card">
+          <div class="swiper project-swiper">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide">
+                <img src="images/Capture1.PNG" alt="Face Detection and Tracking in a Crowd" class="project-image"  />
+              </div>
+              <div class="swiper-slide">
+                <img src="images/Capture2.PNG" alt="authentification" class="project-image" />
+              </div>
+                <div class="swiper-slide">
+                  <img src="images/Capture3.PNG" alt="authentification" class="project-image" />
+                </div>
+                  <div class="swiper-slide">
+                    <img src="images/Capture4.PNG" alt="authentification" class="project-image" />
+                  </div>
+                    <div class="swiper-slide">
+                      <img src="images/Capture5.PNG" alt="authentification" class="project-image" />
+                    </div>
+              
+              
+            </div>
+        
+            <!-- Navigation & pagination inside the same container (keeps them local) -->
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-button-next"></div>
+            <div class="swiper-pagination"></div>
+          </div>
+
+         
+          <div class="project-content">
+            <h3> PROJECT 03: Face Detection and Tracking in a Crowd</h3>
+            <p class="project-tech"><strong>Technologies:</strong> Python, OpenCV, TensorFlow</p>
+            <p class="project-desc">
+              I implemented a system using OpenCV and TensorFlow to detect and track faces in crowded and dynamic environments. The approach focused on ensuring robustness under variations in lighting, occlusion, and movement. The project achieved reliable real-time tracking performance, making it applicable to surveillance, monitoring, and security applications.
+            </p>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section id="skills" class="section">
+      <h2>Skills</h2>
+      <div class="skills-grid">
+        <div>
+          <h4>Programming</h4>
+          <p>Python, Java, C++, Matlab, PHP</p>
+        </div>
+        <div>
+          <h4>AI/ML Frameworks</h4>
+          <p>TensorFlow , PyTorch , Keras , scikit-learn , OpenCV , Pandas , NumPy , Matplotlib , Seaborn</p>
+        </div>
+        <div>
+          <h4>Databases</h4>
+          <p>PostgreSQL, SQL, MongoDB</p>
+        </div>
+        <div>
+          <h4>MLOps & Development Tools</h4>
+          <p>Docker , Git/GitHub , Jupyter , Linux/Unix  , Model Deployment
+</p>
+        </div>
+        <div>
+          <h4>Soft Skills</h4>
+          <p>Communication, Problem-solving, Teamwork, Leadership, Critical Thinking, Creativity</p>
+        </div>
+        <div>
+          <h4>Languages</h4>
+          <p>English (Professional), French (Native), Arabic (Native)</p>
+        </div>
+        <div>
+          <h4>Interests</h4>
+          <p>Drawing, Sports, Graphic Design, Travel</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="publications" class="section">
+      <h2>Publications</h2>
+      <p><em> Nawal, SH., Noria, T. & Nihad, HS (2025). Expertise as a signature: continuous implicit 
+        authentication based on behavior. Cluster Comput 28, 169 https://doi.org/10.1007/s10586-024-04863-z </em></p>
+    </section>
+
+    <section id="contact" class="section">
+      <h2>Contact</h2>
+      
+      <ul class="contact-list">
+        <li>Email: <a href="mailto:nihadhsa@gmail.com" target="_blank" rel="noopener">nihadhsa@gmail.com</a></li>
+        <li>LinkedIn: <a href="https://www.linkedin.com/in/nihad-hs" target="_blank" rel="noopener">linkedin.com/in/nihad-hs</a></li>
+        <li>github: <a href="https://github.com/nihadhsa2000" target="_blank" rel="noopener">github.com/nihadhsa2000</a></li>
+        
+      </ul>
+    </section>
+  </main>
+
+  <footer>
+    <div class="container footer-container">
+      <p>© 2025 Nihad Hadj-Sahraoui. All rights reserved.</p>
+    </div>
+  </footer>
+  <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+
+  <script>
+    // initialize one Swiper instance per .project-swiper container
+    document.querySelectorAll('.project-swiper').forEach(container => {
+      new Swiper(container, {
+        loop: true,
+        // use DOM nodes inside the same container so nav controls are local
+        navigation: {
+          nextEl: container.querySelector('.swiper-button-next'),
+          prevEl: container.querySelector('.swiper-button-prev'),
+        },
+        pagination: {
+          el: container.querySelector('.swiper-pagination'),
+          clickable: true,
+        },
+        // you can adjust options:
+        // autoplay: { delay: 4000 },
+        // spaceBetween: 10,
+      });
+    });
+  </script>
+  
+  <script src="script.js"></script>
+</body>
+</html>
